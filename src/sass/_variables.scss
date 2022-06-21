@@ -1,0 +1,30 @@
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+$first-color: #15b7b9;
+$second-color: #20dbc2;
+$white: #f5f5f5;
+$firts-color-text: #0c2424;
+$second-color-text: #007a7a;
+$font-size-normal: 1.6rem;
+$font-size-medium: 1.8rem;
+$font-size-big: 2rem;
+
+:root {
+  /*Colors*/
+  --first-color: #{$first-color};
+  --second-color: #{$second-color};
+  --firts-color-text: #{$firts-color-text};
+  --second-color-text: #{$second-color-text};
+  --white: #{$white};
+
+  /*Fonts*/
+  --font-light: #{$font-light};
+  --font-regular: #{$font-regular};
+  --font-bold: #{$font-bold};
+
+  /*Font size*/
+  --font-size-normal: #{$font-size-normal};
+  --font-size-medium: #{$font-size-medium};
+  --font-size-big: #{$font-size-big};
+}
