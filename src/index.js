@@ -5,4 +5,11 @@ import "./css/index.css";
 import "./css/reset.css";
 
 // Importar componentes
-import "./js/componentes.js";
+import { toggleNav } from "./js/navbar";
+
+const navBar = document.querySelector(".header__nav-bar-container");
+const navMenu = document.querySelector(".nav-mobile");
+
+navBar.addEventListener("click", () => {
+  toggleNav(navBar, navMenu);
+});
