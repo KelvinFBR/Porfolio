@@ -5,8 +5,10 @@ import "./css/index.css";
 import "./css/reset.css";
 
 // Importar componentes
+import "./js/scrollReveal";
 import { toggleNav } from "./js/navbar";
 
+// Nav bar
 const navBar = document.querySelector(".header__nav-bar-container");
 const navMenu = document.querySelector(".nav-mobile");
 

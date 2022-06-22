@@ -94,7 +94,7 @@ $breakpoint-tablet: 768px;
       background-color: $hover-bg;
       color: var(--white);
       margin-top: 4rem;
-      padding: 1rem 2rem;
+      padding: 1.8rem 2rem;
       border-radius: 1.5rem 0.5rem 1.5rem 0.5rem;
       box-shadow: 0 0 5px #{$color-box-shadow-black};
       transition: all 0.25s ease-in-out;
@@ -222,14 +222,32 @@ $breakpoint-tablet: 768px;
       font-size: var(--font-size-normal);
       font-weight: var(--font-regular);
       @include flex(row, space-between, center, nowrap);
+      display: none;
+
+      //!   opcional por safari
       //   gap: 1.5rem;
 
       li {
         margin: 0 1.5rem;
+        position: relative;
+
+        span {
+          display: block;
+          width: 0%;
+          height: 4px;
+          border-radius: 0 2rem;
+          background-color: var(--white);
+          transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        &:hover > {
+          span {
+            width: 100%;
+          }
+        }
       }
 
-      @media (max-width: $breakpoint-tablet) {
-        display: none;
+      @media (min-width: $breakpoint-tablet) {
+        display: flex;
       }
     }
 
@@ -307,8 +325,4 @@ $breakpoint-tablet: 768px;
       }
     }
   }
-}
-
-body {
-  @include scrollbars(14px, var(--second-color-text), $color-box-shadow-black);
 }

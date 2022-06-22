@@ -1,0 +1,5 @@
+@import "header";
+
+body {
+  @include scrollbars(14px, var(--second-color-text), $color-box-shadow-black);
+}
