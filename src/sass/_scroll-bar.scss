@@ -1,4 +1,6 @@
-@import "header";
+@import "mixins";
+
+$color-box-shadow-black: #0c45465c;
 
 body {
   @include scrollbars(14px, var(--second-color-text), $color-box-shadow-black);
