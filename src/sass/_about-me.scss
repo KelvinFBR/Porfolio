@@ -1,5 +1,6 @@
 @import "mixins";
 
+$color-shadow-photo: hsla(172, 75%, 49%, 0.3);
 $color-box-shadow-black: #0c45465c;
 $breakpoint-mobile: 380px;
 $breakpoint-tablet: 768px;
@@ -24,6 +25,9 @@ $breakpoint-tablet: 768px;
   }
 
   .about-me {
+    // position: relative;
+    // z-index: 1;
+
     &__title-container {
       width: fit-content;
       height: fit-content;
@@ -53,6 +57,22 @@ $breakpoint-tablet: 768px;
     @include flex(row, center, center, wrap);
     align-self: flex-start;
 
+    .about-me__circles-photo {
+      position: relative;
+
+      & .bg-circles-container {
+        position: absolute;
+        top: 0;
+        left: -10px;
+        z-index: -1;
+        width: 200px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
     .about-me__photo-container {
       overflow: hidden;
       border-radius: 10px;
@@ -60,6 +80,7 @@ $breakpoint-tablet: 768px;
       max-width: 100%;
       min-width: 200px;
       margin: 4rem;
+      box-shadow: 10px 10px 0 $color-shadow-photo;
 
       img {
         width: 300px;

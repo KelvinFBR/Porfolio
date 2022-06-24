@@ -54,14 +54,21 @@ ScrollReveal().reveal(".about-me__bar", {
 ScrollReveal().reveal(".about-me__photo-container", {
   reset: true,
   duration: 2000,
-  delay: 400,
+  delay: 200,
   origin: "left",
   distance: "100px",
 });
 ScrollReveal().reveal(".main__about-me-description", {
   reset: true,
   duration: 2000,
-  delay: 800,
+  delay: 400,
   origin: "right",
+  distance: "100px",
+});
+ScrollReveal().reveal(".bg-circles-container", {
+  reset: true,
+  duration: 2000,
+  delay: 800,
+  origin: "left",
   distance: "100px",
 });
