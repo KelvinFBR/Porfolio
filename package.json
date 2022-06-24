@@ -33,6 +33,7 @@
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
+    "owl.carousel": "^2.3.4",
     "scrollreveal": "^4.0.9"
   }
 }

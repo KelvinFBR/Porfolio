@@ -55,6 +55,8 @@ ScrollReveal().reveal(".about-me__photo-container", {
   reset: true,
   duration: 2000,
   delay: 200,
+  scale: 0.85,
+
   origin: "left",
   distance: "100px",
 });
@@ -62,6 +64,8 @@ ScrollReveal().reveal(".main__about-me-description", {
   reset: true,
   duration: 2000,
   delay: 400,
+  scale: 0.85,
+
   origin: "right",
   distance: "100px",
 });
@@ -70,5 +74,28 @@ ScrollReveal().reveal(".bg-circles-container", {
   duration: 2000,
   delay: 800,
   origin: "left",
+  distance: "100px",
+});
+
+// ScrollReveal Skills
+ScrollReveal().reveal(".skills__title", {
+  reset: true,
+  duration: 2000,
+  origin: "right",
+  distance: "80px",
+});
+
+ScrollReveal().reveal(".skills__bar", {
+  reset: true,
+  duration: 2000,
+  origin: "left",
+  distance: "100px",
+});
+
+ScrollReveal().reveal(".skills-slider__container", {
+  reset: true,
+  duration: 2000,
+  delay: 100,
+  origin: "bottom",
   distance: "100px",
 });

@@ -4,6 +4,9 @@ import "./css/index.css";
 // Estilos de reset
 import "./css/reset.css";
 
+// owl corusel
+import "./js/owl.carousel";
+
 // Importar componentes
 import "./js/scrollReveal";
 import { toggleNav } from "./js/navbar";
