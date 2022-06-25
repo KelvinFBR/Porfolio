@@ -365,6 +365,7 @@
   color: var(--first-color);
   font-weight: var(--font-bold);
 }
+
 body::-webkit-scrollbar {
   width: 14px;
   height: 14px;
@@ -440,6 +441,167 @@ body {
   padding: 0.8rem;
   border-radius: 50%;
   background-color: var(--white);
+}
+
+.education {
+  height: 100vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: none;
+}
+@media (max-width: 768px) {
+  .education {
+    height: 100%;
+  }
+}
+.education__title-container {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 4rem;
+}
+.education__title-container .education__title {
+  color: var(--color-title-section);
+  font-size: var(--font-size-big);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
+}
+.education__title-container .education__bar {
+  margin-top: 0.8rem;
+  display: block;
+  width: 50%;
+  height: 4px;
+  background: linear-gradient(to right, var(--white), var(--first-color));
+}
+.education .education-container-cards {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  flex-grow: 2;
+}
+.education .education-container-cards .education-bg-circles {
+  position: absolute;
+  top: 50px;
+  right: -150px;
+}
+.education .education-container-cards .education-bg-circles img {
+  width: 250px;
+}
+.education .education-container-cards .education-container__card {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  background-color: rgba(21, 182, 185, 0.6823529412);
+  border-radius: 0.8rem;
+  padding: 1.8rem;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.education .education-container-cards .education-container__card:hover {
+  transform: scale(1.02);
+}
+.education .education-container-cards .education-container__card:hover {
+  box-shadow: 8px 8px 0 hsla(172deg, 75%, 49%, 0.3);
+  cursor: pointer;
+}
+.education .education-container-cards .education-container__card:hover img {
+  transform: scale(1.1);
+}
+.education .education-container-cards .education-container__card .education-container__card-img {
+  max-width: 100%;
+  height: auto;
+}
+.education .education-container-cards .education-container__card .education-container__card-img img {
+  transition: all 0.25s ease-in-out;
+  width: 250px;
+}
+.education .education-container-cards .education-container__card .education-container__card-title {
+  color: var(--color-title-section);
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.1rem;
+  text-align: center;
+  text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
+}
+
+.arrow-top-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  margin: 2rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.arrow-top-container.active {
+  opacity: 1;
+}
+.arrow-top-container .arrow-top {
+  width: 100%;
+  height: 100%;
+  padding: 0.4rem;
+  border-radius: 50%;
+  background-color: rgba(32, 219, 194, 0.6235294118);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-top-container .arrow-top img {
+  width: 80%;
+}
+.arrow-top-container .animation-arrow-top {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  background-color: #15b6b9;
+  -webkit-animation: heartbeat 2s ease-in-out infinite both;
+  animation: heartbeat 2s ease-in-out infinite both;
+}
+@-webkit-keyframes heartbeat {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  40% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  40% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

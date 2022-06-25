@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo.png"
+      type="image/x-icon"
+    />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,11 +18,11 @@
       rel="stylesheet"
     />
 
-    <title>Kelvin F. Baez Rodriguez</title>
+    <title>Kelvin F. Baez Rodriguez - Frontend Developer</title>
   </head>
   <body>
     <!-- header -->
-    <header class="header">
+    <header id="top" class="header">
       <nav class="header__nav">
         <div class="header__nav-wrapper">
           <a href="/" class="header__logo" title="Inicio">
@@ -91,7 +96,7 @@
         <ul class="nav-mobile__menu">
           <li><a title="Sobre Mi" href="#about-me">Sobre Mi</a></li>
           <li><a title="Habilidades" href="#skills">Habilidades</a></li>
-          <li><a title="Fromacion" href="education">Formacion</a></li>
+          <li><a title="Fromacion" href="#education">Formacion</a></li>
           <li><a title="Proyectos" href="projects.html">Proyectos</a></li>
           <li><a title="Contactos" href="contact.html">Contactos</a></li>
         </ul>
@@ -144,20 +149,44 @@
           <div class="skills-slider__container owl-carousel">
             <div class="skills-slider__skill">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+                alt="Sass"
+                title="Sass"
+              />
+            </div>
+            <div class="skills-slider__skill skills-slider--bg">
+              <img
+                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                alt="tailwindcss"
+                title="Tailwindcss"
+              />
+            </div>
+            <div class="skills-slider__skill">
+              <img
+                src="https://kukre2005.github.io/Challenge-Alura-Portafolio/img/skills/html-5.svg"
                 alt="html"
+                title="Html"
               />
             </div>
             <div class="skills-slider__skill">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
+                src="https://kukre2005.github.io/Challenge-Alura-Portafolio/img/skills/css3.svg"
                 alt="css"
+                title="Css"
               />
             </div>
             <div class="skills-slider__skill">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+                src="https://kukre2005.github.io/Challenge-Alura-Portafolio/img/skills/javascript.svg"
                 alt="javaScript"
+                title="JavaScript"
+              />
+            </div>
+            <div class="skills-slider__skill">
+              <img
+                src="https://kukre2005.github.io/Challenge-Alura-Portafolio/img/skills/python.svg"
+                alt="python"
+                title="Python"
               />
             </div>
 
@@ -165,56 +194,114 @@
               <img
                 src="https://cdn-icons-png.flaticon.com/512/919/919847.png"
                 alt="github"
+                title="Github"
               />
             </div>
             <div class="skills-slider__skill">
               <img
                 src="https://mariodev.netlify.app/static/media/git-logo.949d3dcdbfa0a7b62f8f.png"
                 alt="git"
-              />
-            </div>
-            <div class="skills-slider__skill">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
-                alt="Sass"
+                title="Git"
               />
             </div>
             <div class="skills-slider__skill">
               <img
                 src="https://mariodev.netlify.app/static/media/figma-logo.beb1e389955af7a84812.png"
                 alt="Figma"
+                title="Figma"
               />
             </div>
             <div class="skills-slider__skill">
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYCAMAAACtqHJCAAABHVBMVEUAAADMNTT////LMjHMNDPMNTTGOTnef37//f3++vrbcnHPQD/z09PmnZ389fXYZWTMMzLNNzbLMzLuvb3PQkH//v7klpXopKP01tbNNjTfg4L+/f3MNjX56urTUVDqq6vdfHvQREPz0tL56OjST07MNDTMNTTJNjHMOzPklJPbc3LfgoHNODfLMTD+/Pz78fHmnJvfgH/kk5PXZGPabm7KLi3nn57OPTzUV1bnoqH45eTuu7vdenry0M/pqan01NTTU1LWXFvxysrXYmHONjbLMC7RTEvMMzPNNjTGOTnNMjLNNjLvwsHMNjPONjPRSknMNDPfg4PYZmXINzfMNDPhiYjZa2rNNjX9+PjbcXHPMDDqrq3MNTTTUFDghoUD7wv7AAAAX3RSTlMA/////8QS////////////////////////dv//////////////4fI5Hv///////////////////////////////////3f//w9xGy5H/9Fo//P//w74///L//8Q//z//zC4lIsAAAmfSURBVHic7d3Znh5lEcBhk4yKJpJhjGtwi6AC2UhCAsgmm/u+xfX+L0M8qP69B9qV/qaYetPzPBfQX1d1/ed0PgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwkQvwKei+6zLdi2Sfuu+6TPci2afuuy7TvUj2qfuuy3Qvkn3qvusy3Ytkn7rvukz3Itmn7rsu071I9qn7rst0L5J96r7rMt2LZJ+677pM9yLZp+67LtO9SPap+67LdC+Sfeq+6zLdi2Sfuu+6TPci2afuuy7TvUj2qfuuy3Qvkn3qvusy3Ytkn7rvukz3Itmn7rsu071I9qn7rst0L5J96r7rMt2LZJ+677pM9yLZp+67LtO9SPap+67LdC+Sfeq+6zLdi2Sfuu+6TPci2afuuy7TvUj2qfuuy3Qvkn3qvusy3Ytkn7rvukz3Itmn7rsu071I9qn7rsukkx5f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"
                 alt="npm"
-              />
-            </div>
-
-            <div class="skills-slider__skill skills-slider--bg">
-              <img
-                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
-                alt="tailwindcss"
+                title="npm"
               />
             </div>
             <div class="skills-slider__skill">
               <img
+                src="https://kukre2005.github.io/Challenge-Alura-Portafolio/img/skills/trello.svg"
+                alt="trello"
+                title="Trello"
+              />
+            </div>
+
+            <div class="skills-slider__skill">
+              <img
                 src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
                 alt="postman"
+                title="Postman"
               />
             </div>
             <div class="skills-slider__skill">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png"
                 alt="postgresql"
+                title="Postgresql"
               />
             </div>
           </div>
         </section>
       </section>
 
-      <section class="education"></section>
+      <!-- Education -->
+      <section id="education" class="education">
+        <div class="education__title-container">
+          <h1 class="education__title">Formacion</h1>
+          <span class="education__bar"></span>
+        </div>
+
+        <section class="education-container-cards">
+          <div class="education-bg-circles">
+            <img src="./assets/img/bg-circle-small.svg" alt="circles" />
+          </div>
+
+          <a
+            href="https://itla.edu.do/"
+            target="_blank"
+            title="Instituto tecnologico de las america"
+            class="card-itla"
+          >
+            <div
+              class="education-container__card education-container__card--itla"
+            >
+              <div class="education-container__card-img">
+                <img
+                  src="https://itla.edu.do/wp-content/uploads/2021/03/itla-logo-2020.png"
+                  alt="Logo Oracle ONE"
+                />
+              </div>
+              <p class="education-container__card-title">ITLA - En pausa</p>
+            </div>
+          </a>
+          <a
+            href="https://www.oracle.com/ar/education/oracle-next-education"
+            target="_blank"
+            title="Oracle Next Education"
+            class="card-oracle"
+          >
+            <div class="education-container__card">
+              <div class="education-container__card-img">
+                <img
+                  src="https://app.aluracursos.com/assets/images/empregaOne/oracle-one-logo.svg"
+                  alt="Logo Oracle ONE"
+                />
+              </div>
+              <p class="education-container__card-title">
+                OracleONE + Alura - En curso
+              </p>
+            </div>
+          </a>
+        </section>
+      </section>
     </main>
+    <a href="#top" title="ir al inicio">
+      <div class="arrow-top-container">
+        <div class="animation-arrow-top"></div>
+        <div class="arrow-top">
+          <img src="./assets/icon/arrow-top-one.svg" alt="flecha top" />
+        </div>
+      </div>
+    </a>
   </body>
 </html>

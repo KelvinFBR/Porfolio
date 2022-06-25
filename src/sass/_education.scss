@@ -1,0 +1,102 @@
+@import "mixins";
+
+$color-box-shadow-black: #0c45465c;
+$bg-cards: #15b6b9ae;
+$bg-cards-hover: hsla(172, 75%, 49%, 0.3);
+$color-shadow-cards: hsla(172, 75%, 49%, 0.3);
+$breakpoint-tablet: 768px;
+
+.education {
+  height: 100vh;
+  padding: 1.5rem;
+  @include flex(column, space-between, none, wrap);
+
+  @media (max-width: $breakpoint-tablet) {
+    height: 100%;
+  }
+
+  &__title-container {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 4rem;
+
+    .education__title {
+      color: var(--color-title-section);
+      font-size: var(--font-size-big);
+      font-weight: var(--font-bold);
+      letter-spacing: 0.1rem;
+      text-shadow: 0 0 2px $color-box-shadow-black;
+    }
+
+    .education__bar {
+      margin-top: 0.8rem;
+      display: block;
+      width: 50%;
+      height: 4px;
+      background: linear-gradient(to right, var(--white), var(--first-color));
+    }
+  }
+
+  .education-container-cards {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    @include flex(row, space-evenly, center, wrap);
+    gap: 2rem;
+    flex-grow: 2;
+
+    .education-bg-circles {
+      position: absolute;
+      top: 50px;
+      right: -150px;
+      img {
+        width: 250px;
+      }
+    }
+
+    .education-container__card {
+      width: 100%;
+      max-width: 250px;
+      height: 250px;
+      background-color: $bg-cards;
+      border-radius: 0.8rem;
+      padding: 1.8rem;
+      transition: all 0.25s ease-in-out;
+      position: relative;
+      z-index: 5;
+      @include flex(row, space-evenly, center, wrap);
+
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      &:hover {
+        box-shadow: 8px 8px 0 $color-shadow-cards;
+        cursor: pointer;
+
+        img {
+          transform: scale(1.1);
+        }
+      }
+
+      .education-container__card-img {
+        max-width: 100%;
+        height: auto;
+
+        img {
+          transition: all 0.25s ease-in-out;
+
+          width: 250px;
+        }
+      }
+      .education-container__card-title {
+        color: var(--color-title-section);
+        font-size: var(--font-size-normal);
+        font-weight: var(--font-bold);
+        letter-spacing: 0.1rem;
+        text-align: center;
+        text-shadow: 0 0 2px $color-box-shadow-black;
+      }
+    }
+  }
+}

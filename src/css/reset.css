@@ -11,17 +11,18 @@
 /* Aquí definimos las Custom properties */
 :root {
   /* --negro: #393939; */
+  --blanco: #f1f1f1;
   /* Tipografía */
   --fonts-firts: "Poppins", sans-serif;
   /* --tipo-secundaria: Verdana; */
 }
 
 /* Las adaptamos al modo oscuro */
-/* @media (prefers-color-scheme: dark) {
-  :root {
+/* @media (prefers-color-scheme: dark) { */
+/* :root {
     --negro: #ececec;
-  }
-} */
+  } */
+/* } */
 
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
@@ -172,6 +173,7 @@ svg {
 } */
 /* Configuramos la tipografía para toda la web */
 body {
+  background-color: var(--blanco);
   min-height: 100vh;
   font-size: 100%;
   font-family: var(--fonts-firts);

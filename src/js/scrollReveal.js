@@ -99,3 +99,43 @@ ScrollReveal().reveal(".skills-slider__container", {
   origin: "bottom",
   distance: "100px",
 });
+
+// ScrollReveal Education
+ScrollReveal().reveal(".education__title", {
+  reset: true,
+  duration: 2000,
+  origin: "right",
+  distance: "80px",
+});
+
+ScrollReveal().reveal(".education__bar", {
+  reset: true,
+  duration: 2000,
+  origin: "left",
+  distance: "100px",
+});
+
+ScrollReveal().reveal(".card-itla", {
+  reset: true,
+  duration: 2000,
+  scale: 0.85,
+
+  origin: "left",
+  distance: "100px",
+});
+ScrollReveal().reveal(".card-oracle", {
+  reset: true,
+  duration: 2000,
+  scale: 0.85,
+
+  origin: "right",
+  distance: "100px",
+});
+
+ScrollReveal().reveal(".education-bg-circles", {
+  reset: true,
+  duration: 2000,
+  delay: 300,
+  origin: "left",
+  distance: "100px",
+});

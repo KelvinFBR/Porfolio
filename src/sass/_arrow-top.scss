@@ -1,0 +1,75 @@
+@import "mixins";
+
+$bg-arrow: #20dbc29f;
+$bg-arrow-animate: #15b6b9;
+
+.arrow-top-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  margin: 2rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  &.active {
+    opacity: 1;
+  }
+
+  .arrow-top {
+    width: 100%;
+    height: 100%;
+    padding: 0.4rem;
+    border-radius: 50%;
+    background-color: $bg-arrow;
+    @include flex(row, center, center, nowrap);
+
+    img {
+      width: 80%;
+    }
+  }
+
+  .animation-arrow-top {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    background-color: $bg-arrow-animate;
+
+    -webkit-animation: heartbeat 2s ease-in-out infinite both;
+    animation: heartbeat 2s ease-in-out infinite both;
+
+    @-webkit-keyframes heartbeat {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+      40% {
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(1.4);
+      }
+    }
+    @keyframes heartbeat {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+      40% {
+        opacity: 0.8;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(1.4);
+      }
+    }
+  }
+}

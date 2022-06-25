@@ -7,6 +7,9 @@ import "./css/reset.css";
 // owl corusel
 import "./js/owl.carousel";
 
+// arrow top
+import "./js/arrow-top";
+
 // Importar componentes
 import "./js/scrollReveal";
 import { toggleNav } from "./js/navbar";
