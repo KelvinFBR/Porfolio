@@ -139,3 +139,18 @@ ScrollReveal().reveal(".education-bg-circles", {
   origin: "left",
   distance: "100px",
 });
+
+// ScrollReveal Project
+ScrollReveal().reveal(".Projects__title", {
+  reset: true,
+  duration: 2000,
+  origin: "right",
+  distance: "80px",
+});
+
+ScrollReveal().reveal(".Projects__bar", {
+  reset: true,
+  duration: 2000,
+  origin: "left",
+  distance: "100px",
+});

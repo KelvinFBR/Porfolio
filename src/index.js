@@ -1,8 +1,6 @@
 // Estilos compilados de sass
-import "./css/index.css";
-
-// Estilos de reset
-import "./css/reset.css";
+// import "./css/index.css";
+import "./styles.css";
 
 // owl corusel
 import "./js/owl.carousel";
