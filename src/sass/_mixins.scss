@@ -31,3 +31,11 @@
     scrollbar-track-color: $background-color;
   }
 }
+
+@mixin itemsCardDelay($mountItems) {
+  @for $i from 1 through $mountItems {
+    .card__tech-item--#{$i} {
+      transition-delay: #{"0."}#{$i}s;
+    }
+  }
+}

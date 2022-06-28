@@ -154,3 +154,28 @@ ScrollReveal().reveal(".Projects__bar", {
   origin: "left",
   distance: "100px",
 });
+// 1
+ScrollReveal().reveal(".projects-container__card:nth-child(1)", {
+  reset: true,
+  duration: 2000,
+  delay: 100,
+  scale: 0.8,
+});
+ScrollReveal().reveal(".projects-container__card:nth-child(2)", {
+  reset: true,
+  duration: 2000,
+  delay: 200,
+  scale: 0.8,
+});
+ScrollReveal().reveal(".projects-container__card:nth-child(3)", {
+  reset: true,
+  duration: 2000,
+  delay: 300,
+  scale: 0.8,
+});
+ScrollReveal().reveal(".projects-container__card:nth-child(4)", {
+  reset: true,
+  duration: 2000,
+  delay: 400,
+  scale: 0.8,
+});
