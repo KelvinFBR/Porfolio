@@ -179,3 +179,33 @@ ScrollReveal().reveal(".projects-container__card:nth-child(4)", {
   delay: 400,
   scale: 0.8,
 });
+
+// ScrollReveal contact
+ScrollReveal().reveal(".footer-contact-item-1", {
+  reset: true,
+  duration: 2000,
+  origin: "top",
+  distance: "50px",
+  opacity: 0,
+});
+ScrollReveal().reveal(".footer-contact-item-2", {
+  reset: true,
+  duration: 2000,
+  delay: 100,
+  origin: "bottom",
+  distance: "50px",
+});
+ScrollReveal().reveal(".footer-contact-item-3", {
+  reset: true,
+  duration: 2000,
+  delay: 200,
+  origin: "top",
+  distance: "50px",
+});
+ScrollReveal().reveal(".footer-contact-item-4", {
+  reset: true,
+  duration: 2000,
+  delay: 300,
+  origin: "bottom",
+  distance: "50px",
+});
