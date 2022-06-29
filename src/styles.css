@@ -538,6 +538,7 @@ body {
   align-self: flex-end;
 }
 .main__about-me-content .main__about-me-description p {
+  text-align: center;
   color: var(--color-title-section);
   font-size: var(--font-size-normal);
   line-height: 2.4rem;
@@ -711,6 +712,7 @@ body {
   font-size: var(--font-size-normal);
   font-weight: var(--font-bold);
   letter-spacing: 0.1rem;
+  line-height: 1.8rem;
   text-align: center;
   text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
 }
@@ -801,7 +803,7 @@ body {
   align-items: center;
 }
 .projects-container .projects-container__card .card__tech-item img {
-  width: 50%;
+  width: 60%;
 }
 .projects-container .projects-container__card .card {
   position: relative;
@@ -832,15 +834,15 @@ body {
   padding: 1rem 0;
   font-size: var(--font-size-normal);
   font-weight: var(--font-regular);
+  color: var(--color-title-section);
+  text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
   letter-spacing: 0.1rem;
-  color: var(--white);
 }
 .projects-container .projects-container__card .card__buttons {
   overflow: hidden;
   width: 100%;
   height: 80px;
-  border-radius: 1rem;
-  background-color: hsla(181deg, 55%, 20%, 0.141);
+  background: linear-gradient(to top, hsla(181deg, 55%, 20%, 0.375) 10%, rgba(51, 51, 51, 0.012));
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform: translateY(90px);
   display: flex;
@@ -869,9 +871,19 @@ body {
   transition-delay: 0.1s;
   background-color: #20dbc2;
 }
+.projects-container .projects-container__card .card__button--primary:hover {
+  background-color: hsla(172deg, 75%, 49%, 0.453);
+  color: var(--color-title-section);
+  text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
+}
 .projects-container .projects-container__card .card__button--secondary {
   transition-delay: 0.2s;
   background-color: hsla(172deg, 75%, 49%, 0.453);
+}
+.projects-container .projects-container__card .card__button--secondary:hover {
+  background-color: #20dbc2;
+  color: var(--color-title-section);
+  text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
 }
 
 .footer {

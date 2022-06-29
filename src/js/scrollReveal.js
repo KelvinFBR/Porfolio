@@ -127,6 +127,11 @@ ScrollReveal().reveal(".card-oracle", {
   reset: true,
   duration: 2000,
   scale: 0.85,
+});
+ScrollReveal().reveal(".card-google", {
+  reset: true,
+  duration: 2000,
+  scale: 0.85,
 
   origin: "right",
   distance: "100px",

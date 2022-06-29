@@ -50,6 +50,7 @@ $breakpoint-tablet: 768px;
       position: absolute;
       top: 50px;
       right: -150px;
+
       img {
         width: 250px;
       }
@@ -95,6 +96,7 @@ $breakpoint-tablet: 768px;
         font-size: var(--font-size-normal);
         font-weight: var(--font-bold);
         letter-spacing: 0.1rem;
+        line-height: 1.8rem;
         text-align: center;
         text-shadow: 0 0 2px $color-box-shadow-black;
       }
