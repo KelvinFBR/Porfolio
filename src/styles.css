@@ -817,12 +817,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.projects-container .projects-container__card .card:hover .card__buttons {
-  transform: translateY(0);
-}
-.projects-container .projects-container__card .card:hover .card__button {
-  transform: translateY(0);
-}
 .projects-container .projects-container__card .card:hover .card__img {
   transform: scale(1.2);
 }
@@ -844,7 +838,6 @@ body {
   height: 80px;
   background: linear-gradient(to top, hsla(181deg, 55%, 20%, 0.375) 10%, rgba(51, 51, 51, 0.012));
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transform: translateY(90px);
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -864,11 +857,9 @@ body {
   font-weight: var(--font-bold);
   letter-spacing: 0.1rem;
   color: var(--white);
-  transform: translateY(90px);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .projects-container .projects-container__card .card__button--primary {
-  transition-delay: 0.1s;
   background-color: #20dbc2;
 }
 .projects-container .projects-container__card .card__button--primary:hover {
@@ -877,7 +868,6 @@ body {
   text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
 }
 .projects-container .projects-container__card .card__button--secondary {
-  transition-delay: 0.2s;
   background-color: hsla(172deg, 75%, 49%, 0.453);
 }
 .projects-container .projects-container__card .card__button--secondary:hover {
