@@ -70,7 +70,7 @@ $breakpoint-mobile: 380px;
 
       &:hover {
         background-color: var(--first-color);
-        border: 3px solid var(--white);
+        outline: 3px solid var(--white);
       }
     }
   }
@@ -121,6 +121,7 @@ $breakpoint-mobile: 380px;
     width: 100%;
     padding: 0 1.8rem;
     background: linear-gradient(to right, #6c6a6a1f, #047e7e8a);
+    @include flex(row, center, center, nowrap);
   }
 
   .nav-mobile {
@@ -145,7 +146,7 @@ $breakpoint-mobile: 380px;
     &__menu {
       height: 100%;
       width: 50%;
-      transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: all 0.45s ease-in-out;
       background: linear-gradient(to right, #46939bf1, #047e7ec9);
       transform: translateX(-2000px);
       border-radius: 0 2.8rem 2.8rem 0;
@@ -157,6 +158,26 @@ $breakpoint-mobile: 380px;
       &.active {
         transform: translateX(0);
       }
+
+      li {
+        margin: 0 1.5rem;
+        position: relative;
+
+        span {
+          display: block;
+          width: 0%;
+          height: 4px;
+          border-radius: 0 2rem;
+          margin-top: 0.4rem;
+          background-color: var(--white);
+          transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        &:hover > {
+          span {
+            width: 100%;
+          }
+        }
+      }
     }
 
     @media (min-width: $breakpoint-tablet) {
@@ -167,6 +188,7 @@ $breakpoint-mobile: 380px;
   &__nav-wrapper {
     text-align: center;
     letter-spacing: 0.1rem;
+    width: 1300px;
     height: 60px;
     @include flex(row, space-between, center, nowrap);
 

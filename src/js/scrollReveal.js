@@ -120,21 +120,40 @@ ScrollReveal().reveal(".card-itla", {
   duration: 2000,
   scale: 0.85,
 
-  origin: "left",
-  distance: "100px",
+  rotate: {
+    x: 40,
+    y: 20,
+  },
 });
 ScrollReveal().reveal(".card-oracle", {
   reset: true,
   duration: 2000,
   scale: 0.85,
+
+  rotate: {
+    x: 40,
+    y: 20,
+  },
 });
 ScrollReveal().reveal(".card-google", {
   reset: true,
   duration: 2000,
   scale: 0.85,
 
-  origin: "right",
-  distance: "100px",
+  rotate: {
+    x: 40,
+    y: 20,
+  },
+});
+ScrollReveal().reveal(".card-udemy", {
+  reset: true,
+  duration: 2000,
+  scale: 0.85,
+
+  rotate: {
+    x: 40,
+    y: 20,
+  },
 });
 
 ScrollReveal().reveal(".education-bg-circles", {
@@ -165,18 +184,33 @@ ScrollReveal().reveal(".projects-container__card:nth-child(1)", {
   duration: 2000,
   delay: 100,
   scale: 0.8,
+
+  rotate: {
+    x: 40,
+    y: 20,
+  },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(2)", {
   reset: true,
   duration: 2000,
   delay: 200,
   scale: 0.8,
+
+  rotate: {
+    x: 40,
+    y: 20,
+  },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(3)", {
   reset: true,
   duration: 2000,
   delay: 300,
   scale: 0.8,
+
+  rotate: {
+    x: 40,
+    y: 20,
+  },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(4)", {
   reset: true,
@@ -192,6 +226,11 @@ ScrollReveal().reveal(".footer-contact-item-1", {
   origin: "top",
   distance: "50px",
   opacity: 0,
+
+  rotate: {
+    x: 40,
+    y: 20,
+  },
 });
 ScrollReveal().reveal(".footer-contact-item-2", {
   reset: true,
