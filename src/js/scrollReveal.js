@@ -119,6 +119,7 @@ ScrollReveal().reveal(".card-itla", {
   reset: true,
   duration: 2000,
   scale: 0.85,
+  delay: 100,
 
   rotate: {
     x: 40,
@@ -129,6 +130,7 @@ ScrollReveal().reveal(".card-oracle", {
   reset: true,
   duration: 2000,
   scale: 0.85,
+  delay: 200,
 
   rotate: {
     x: 40,
@@ -139,6 +141,7 @@ ScrollReveal().reveal(".card-google", {
   reset: true,
   duration: 2000,
   scale: 0.85,
+  delay: 300,
 
   rotate: {
     x: 40,
@@ -149,6 +152,7 @@ ScrollReveal().reveal(".card-udemy", {
   reset: true,
   duration: 2000,
   scale: 0.85,
+  delay: 400,
 
   rotate: {
     x: 40,
@@ -186,7 +190,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(1)", {
   scale: 0.8,
 
   rotate: {
-    x: 40,
+    x: -40,
     y: 20,
   },
 });
@@ -197,7 +201,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(2)", {
   scale: 0.8,
 
   rotate: {
-    x: 40,
+    x: -40,
     y: 20,
   },
 });
@@ -208,7 +212,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(3)", {
   scale: 0.8,
 
   rotate: {
-    x: 40,
+    x: -40,
     y: 20,
   },
 });
@@ -217,6 +221,11 @@ ScrollReveal().reveal(".projects-container__card:nth-child(4)", {
   duration: 2000,
   delay: 400,
   scale: 0.8,
+
+  rotate: {
+    x: -40,
+    y: 20,
+  },
 });
 
 // ScrollReveal contact
