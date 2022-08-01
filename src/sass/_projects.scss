@@ -13,7 +13,7 @@ $breakpoint-min-desktop: 1504px;
   padding: 1.5rem;
 
   @media (min-width: $breakpoint-min-desktop) {
-    height: 680px;
+    height: auto;
   }
   &__title-container {
     width: fit-content;
@@ -100,11 +100,13 @@ $breakpoint-min-desktop: 1504px;
 
       &:hover {
         .card__img {
-          transform: scale(1.2);
+          transform: scale(1.1);
         }
       }
 
       &__img {
+        width: 94%;
+        border-radius: 1rem;
         transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       }
 
