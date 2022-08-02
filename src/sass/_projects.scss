@@ -72,7 +72,7 @@ $breakpoint-min-desktop: 1504px;
       z-index: -10;
       transform: translateX(0);
       @include flex(column, space-evenly, center, nowrap);
-      @include itemsCardDelay(4);
+      @include itemsCardDelay(5);
     }
 
     .card__tech-item {
@@ -117,6 +117,7 @@ $breakpoint-min-desktop: 1504px;
         font-weight: var(--font-regular);
         color: var(--color-title-section);
         text-shadow: 0 0 2px $color-box-shadow-black;
+        line-height: 2rem;
         letter-spacing: 0.1rem;
       }
       &__buttons {

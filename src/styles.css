@@ -811,6 +811,9 @@ body {
 .projects-container .projects-container__card .card__project-tech .card__tech-item--4 {
   transition-delay: 0.4s;
 }
+.projects-container .projects-container__card .card__project-tech .card__tech-item--5 {
+  transition-delay: 0.5s;
+}
 .projects-container .projects-container__card .card__tech-item {
   display: block;
   width: 50px;
@@ -853,6 +856,7 @@ body {
   font-weight: var(--font-regular);
   color: var(--color-title-section);
   text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
+  line-height: 2rem;
   letter-spacing: 0.1rem;
 }
 .projects-container .projects-container__card .card__buttons {
