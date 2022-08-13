@@ -249,6 +249,17 @@ ScrollReveal().reveal(".projects-container__card:nth-child(6)", {
     y: 20,
   },
 });
+ScrollReveal().reveal(".projects-container__card:nth-child(7)", {
+  reset: true,
+  duration: 2000,
+  delay: 700,
+  scale: 0.8,
+
+  rotate: {
+    x: -40,
+    y: 20,
+  },
+});
 
 // ScrollReveal contact
 ScrollReveal().reveal(".footer-contact-item-1", {
