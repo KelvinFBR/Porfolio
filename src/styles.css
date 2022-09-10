@@ -559,7 +559,7 @@ body {
   align-self: flex-end;
 }
 .main__about-me-content .main__about-me-description p {
-  text-align: center;
+  text-align: left;
   color: var(--color-title-section);
   font-size: var(--font-size-normal);
   line-height: 2.4rem;

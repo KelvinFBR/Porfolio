@@ -38,21 +38,21 @@ ScrollReveal().reveal(".header__icon--container", {
 
 // ScrollReveal Aboout-Me
 ScrollReveal().reveal(".about-me__title", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "right",
   distance: "80px",
 });
 
 ScrollReveal().reveal(".about-me__bar", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "left",
   distance: "100px",
 });
 
 ScrollReveal().reveal(".about-me__photo-container", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 200,
   scale: 0.85,
@@ -61,7 +61,7 @@ ScrollReveal().reveal(".about-me__photo-container", {
   distance: "100px",
 });
 ScrollReveal().reveal(".main__about-me-description", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 400,
   scale: 0.85,
@@ -70,7 +70,7 @@ ScrollReveal().reveal(".main__about-me-description", {
   distance: "100px",
 });
 ScrollReveal().reveal(".bg-circles-container", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 800,
   origin: "left",
@@ -79,21 +79,21 @@ ScrollReveal().reveal(".bg-circles-container", {
 
 // ScrollReveal Skills
 ScrollReveal().reveal(".skills__title", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "right",
   distance: "80px",
 });
 
 ScrollReveal().reveal(".skills__bar", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "left",
   distance: "100px",
 });
 
 ScrollReveal().reveal(".skills-slider__container", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 100,
   origin: "bottom",
@@ -102,21 +102,21 @@ ScrollReveal().reveal(".skills-slider__container", {
 
 // ScrollReveal Education
 ScrollReveal().reveal(".education__title", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "right",
   distance: "80px",
 });
 
 ScrollReveal().reveal(".education__bar", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "left",
   distance: "100px",
 });
 
 ScrollReveal().reveal(".card-itla", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   scale: 0.85,
   delay: 100,
@@ -127,7 +127,7 @@ ScrollReveal().reveal(".card-itla", {
   },
 });
 ScrollReveal().reveal(".card-oracle", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   scale: 0.85,
   delay: 200,
@@ -138,7 +138,7 @@ ScrollReveal().reveal(".card-oracle", {
   },
 });
 ScrollReveal().reveal(".card-google", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   scale: 0.85,
   delay: 300,
@@ -149,7 +149,7 @@ ScrollReveal().reveal(".card-google", {
   },
 });
 ScrollReveal().reveal(".card-udemy", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   scale: 0.85,
   delay: 400,
@@ -161,7 +161,7 @@ ScrollReveal().reveal(".card-udemy", {
 });
 
 ScrollReveal().reveal(".education-bg-circles", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 300,
   origin: "left",
@@ -170,21 +170,21 @@ ScrollReveal().reveal(".education-bg-circles", {
 
 // ScrollReveal Project
 ScrollReveal().reveal(".Projects__title", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "right",
   distance: "80px",
 });
 
 ScrollReveal().reveal(".Projects__bar", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "left",
   distance: "100px",
 });
 // 1
 ScrollReveal().reveal(".projects-container__card:nth-child(1)", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 100,
   scale: 0.8,
@@ -195,7 +195,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(1)", {
   },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(2)", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 200,
   scale: 0.8,
@@ -206,7 +206,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(2)", {
   },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(3)", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 300,
   scale: 0.8,
@@ -217,7 +217,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(3)", {
   },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(4)", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 400,
   scale: 0.8,
@@ -228,7 +228,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(4)", {
   },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(5)", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 500,
   scale: 0.8,
@@ -239,7 +239,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(5)", {
   },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(6)", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 600,
   scale: 0.8,
@@ -250,7 +250,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(6)", {
   },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(7)", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 700,
   scale: 0.8,
@@ -261,7 +261,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(7)", {
   },
 });
 ScrollReveal().reveal(".projects-container__card:nth-child(8)", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 800,
   scale: 0.8,
@@ -274,7 +274,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(8)", {
 
 // ScrollReveal contact
 ScrollReveal().reveal(".footer-contact-item-1", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   origin: "top",
   distance: "50px",
@@ -286,21 +286,21 @@ ScrollReveal().reveal(".footer-contact-item-1", {
   },
 });
 ScrollReveal().reveal(".footer-contact-item-2", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 100,
   origin: "bottom",
   distance: "50px",
 });
 ScrollReveal().reveal(".footer-contact-item-3", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 200,
   origin: "top",
   distance: "50px",
 });
 ScrollReveal().reveal(".footer-contact-item-4", {
-  reset: true,
+  //   reset: true,
   duration: 2000,
   delay: 300,
   origin: "bottom",
