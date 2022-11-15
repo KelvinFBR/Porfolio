@@ -417,9 +417,25 @@
           <span class="Projects__bar"></span>
         </div>
 
-        <section class="projects-container">
+        <div class="Projects__btn-filter">
+          <button
+            type="button"
+            data-filter="all"
+            class="mixitup-control-active"
+          >
+            All
+          </button>
+          <button type="button" data-filter=".html-css-js">HTML/CSS/JS</button>
+          <button type="button" data-filter=".react">React</button>
+          <button type="button" data-filter=".api-sql">API/SQL</button>
+          <button type="button" data-filter=".tailwind">Tailwind</button>
+          <button type="button" data-filter=".java">Java</button>
+          <!-- <button type="button" data-filter=".bootstrap">Bootstrap</button> -->
+        </div>
+
+        <section class="projects-container container">
           <!--* projects cards *-->
-          <div class="projects-container__card">
+          <div class="projects-container__card mix html-css-js">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--5">
                 <img
@@ -480,7 +496,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <div class="projects-container__card mix react tailwind">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--3">
                 <img
@@ -528,7 +544,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <div class="projects-container__card mix react frame-motion">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--4">
                 <img
@@ -582,7 +598,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <div class="projects-container__card mix react tailwind frame-motion">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--4">
                 <img
@@ -636,7 +652,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <div class="projects-container__card mix html-css-js tailwind">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--4">
                 <img
@@ -690,7 +706,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <div class="projects-container__card mix html-css-js">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--4">
                 <img
@@ -744,7 +760,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <div class="projects-container__card mix html-css-js api-sql">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--4">
                 <img
@@ -798,7 +814,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <div class="projects-container__card mix html-css-js bootstrap">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--5">
                 <img
@@ -859,7 +875,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <!-- <div class="projects-container__card mix">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--3">
                 <img
@@ -905,8 +921,8 @@
                 >
               </div>
             </div>
-          </div>
-          <div class="projects-container__card">
+          </div> -->
+          <div class="projects-container__card mix java api-sql">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--3">
                 <img
@@ -956,7 +972,7 @@
               </div>
             </div>
           </div>
-          <div class="projects-container__card">
+          <div class="projects-container__card mix java sql">
             <div class="card__project-tech">
               <span class="card__tech-item card__tech-item--3">
                 <img

@@ -8,6 +8,9 @@ import "./js/owl.carousel";
 // arrow top
 import "./js/arrow-top";
 
+// Mixitup
+import "./js/mixitup";
+
 // Importar componentes
 import "./js/scrollReveal";
 import { toggleNav } from "./js/navbar";

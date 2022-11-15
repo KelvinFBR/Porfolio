@@ -21,6 +21,29 @@ $breakpoint-min-desktop: 1504px;
     margin-bottom: 2rem;
   }
 
+  .mixitup-control-active {
+    box-shadow: 0 4px var(--first-color);
+  }
+
+  &__btn-filter {
+    @include flex(row, center, center, wrap);
+    font-size: 1.6rem;
+    color: var(--color-title-section);
+    margin-bottom: 2rem;
+
+    button {
+      padding: 0.2rem;
+      margin-left: 1.8rem;
+      margin-right: 1.8rem;
+      transition: all 0.25s;
+
+      &:hover {
+        box-shadow: 0 2px var(--first-color);
+        cursor: pointer;
+      }
+    }
+  }
+
   &__title {
     color: var(--color-title-section);
     font-size: var(--font-size-big);

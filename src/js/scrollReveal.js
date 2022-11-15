@@ -339,3 +339,15 @@ ScrollReveal().reveal(".footer-contact-item-4", {
   origin: "bottom",
   distance: "50px",
 });
+
+// ScrollReveal btn-filter
+ScrollReveal().reveal(".Projects__btn-filter", {
+  //   reset: true,
+  duration: 2000,
+  scale: 0.8,
+
+  rotate: {
+    x: 40,
+    y: -20,
+  },
+});

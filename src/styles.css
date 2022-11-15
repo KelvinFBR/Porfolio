@@ -754,6 +754,28 @@ body {
   height: fit-content;
   margin-bottom: 2rem;
 }
+.Projects .mixitup-control-active {
+  box-shadow: 0 4px var(--first-color);
+}
+.Projects__btn-filter {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--color-title-section);
+  margin-bottom: 2rem;
+}
+.Projects__btn-filter button {
+  padding: 0.2rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  transition: all 0.25s;
+}
+.Projects__btn-filter button:hover {
+  box-shadow: 0 2px var(--first-color);
+  cursor: pointer;
+}
 .Projects__title {
   color: var(--color-title-section);
   font-size: var(--font-size-big);
