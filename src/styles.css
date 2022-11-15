@@ -764,12 +764,11 @@ body {
   align-items: center;
   font-size: 1.6rem;
   color: var(--color-title-section);
-  margin-bottom: 2rem;
+  margin: 5rem 0;
 }
 .Projects__btn-filter button {
   padding: 0.2rem;
-  margin-left: 1.8rem;
-  margin-right: 1.8rem;
+  margin: 0 2rem 1.6rem 0;
   transition: all 0.25s;
 }
 .Projects__btn-filter button:hover {
