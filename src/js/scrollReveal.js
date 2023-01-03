@@ -186,7 +186,7 @@ ScrollReveal().reveal(".Projects__bar", {
 ScrollReveal().reveal(".projects-container__card:nth-child(1)", {
   //   reset: true,
   duration: 2000,
-  delay: 100,
+  delay: 50,
   scale: 0.8,
 
   rotate: {
@@ -197,7 +197,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(1)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(2)", {
   //   reset: true,
   duration: 2000,
-  delay: 200,
+  delay: 100,
   scale: 0.8,
 
   rotate: {
@@ -208,7 +208,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(2)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(3)", {
   //   reset: true,
   duration: 2000,
-  delay: 300,
+  delay: 150,
   scale: 0.8,
 
   rotate: {
@@ -219,7 +219,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(3)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(4)", {
   //   reset: true,
   duration: 2000,
-  delay: 400,
+  delay: 200,
   scale: 0.8,
 
   rotate: {
@@ -230,7 +230,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(4)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(5)", {
   //   reset: true,
   duration: 2000,
-  delay: 500,
+  delay: 250,
   scale: 0.8,
 
   rotate: {
@@ -241,7 +241,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(5)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(6)", {
   //   reset: true,
   duration: 2000,
-  delay: 600,
+  delay: 300,
   scale: 0.8,
 
   rotate: {
@@ -252,7 +252,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(6)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(7)", {
   //   reset: true,
   duration: 2000,
-  delay: 700,
+  delay: 350,
   scale: 0.8,
 
   rotate: {
@@ -263,7 +263,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(7)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(8)", {
   //   reset: true,
   duration: 2000,
-  delay: 800,
+  delay: 400,
   scale: 0.8,
 
   rotate: {
@@ -274,7 +274,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(8)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(9)", {
   //   reset: true,
   duration: 2000,
-  delay: 900,
+  delay: 450,
   scale: 0.8,
 
   rotate: {
@@ -285,7 +285,7 @@ ScrollReveal().reveal(".projects-container__card:nth-child(9)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(10)", {
   //   reset: true,
   duration: 2000,
-  delay: 1000,
+  delay: 500,
   scale: 0.8,
 
   rotate: {
@@ -296,7 +296,18 @@ ScrollReveal().reveal(".projects-container__card:nth-child(10)", {
 ScrollReveal().reveal(".projects-container__card:nth-child(11)", {
   //   reset: true,
   duration: 2000,
-  delay: 1100,
+  delay: 550,
+  scale: 0.8,
+
+  rotate: {
+    x: -40,
+    y: 20,
+  },
+});
+ScrollReveal().reveal(".projects-container__card:nth-child(12)", {
+  //   reset: true,
+  duration: 2000,
+  delay: 600,
   scale: 0.8,
 
   rotate: {
@@ -317,27 +328,6 @@ ScrollReveal().reveal(".projects-container__card:nth-child(11)", {
 //     x: 40,
 //     y: 20,
 //   },
-// });
-// ScrollReveal().reveal(".footer-contact-item-2", {
-//   //   reset: true,
-//   duration: 2000,
-//   delay: 100,
-//   origin: "bottom",
-//   distance: "50px",
-// });
-// ScrollReveal().reveal(".footer-contact-item-3", {
-//   //   reset: true,
-//   duration: 2000,
-//   delay: 200,
-//   origin: "top",
-//   distance: "50px",
-// });
-// ScrollReveal().reveal(".footer-contact-item-4", {
-//   //   reset: true,
-//   duration: 2000,
-//   delay: 300,
-//   origin: "bottom",
-//   distance: "50px",
 // });
 
 // ScrollReveal btn-filter
