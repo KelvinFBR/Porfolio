@@ -554,7 +554,7 @@ body {
 .main__about-me-content .main__about-me-description {
   min-width: 280px;
   width: 60%;
-  max-width: 500px;
+  max-width: 600px;
   padding: 1rem;
   align-self: flex-end;
 }
@@ -730,7 +730,7 @@ body {
   width: 250px;
 }
 .education .education-container-cards .education-container__card .education-container__card-title {
-  color: var(--color-title-section);
+  color: var(--white);
   font-size: var(--font-size-normal);
   font-weight: var(--font-bold);
   letter-spacing: 0.1rem;
@@ -876,7 +876,7 @@ body {
   padding: 1rem 0;
   font-size: var(--font-size-normal);
   font-weight: var(--font-regular);
-  color: var(--color-title-section);
+  color: var(--white);
   text-shadow: 0 0 2px rgba(12, 69, 70, 0.3607843137);
   line-height: 2rem;
   letter-spacing: 0.1rem;

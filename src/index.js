@@ -18,7 +18,17 @@ import { toggleNav } from "./js/navbar";
 // Nav bar
 const navBar = document.querySelector(".header__nav-bar-container");
 const navMenu = document.querySelector(".nav-mobile");
+// copy year
+const copyYear = document.querySelector(".copy_year");
 
 navBar.addEventListener("click", () => {
   toggleNav(navBar, navMenu);
 });
+
+
+// get current year and add it to the copy year
+const currentYear = new Date().getFullYear();
+copyYear.innerHTML = currentYear;
+
+
+
